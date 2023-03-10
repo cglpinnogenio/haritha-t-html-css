@@ -1,12 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Static Template</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>This is a static template, there is no bundler or bundling involved!</h1>
+    <div class="container">
+      <div class="top-innerdiv">
+        <div class="nav-div">
+          <div class="awards-div">
+            <a href="" class="anchortag">AWARDS</a>
+          </div>
+          <div class="info-div">
+            <div class="fontone"><a href="" class="anchortag">ABOUT US</a></div>
+            <div class="fontone"><a href="" class="anchortag">CONTACT</a></div>
+            <div class="fonttwo">
+              <a href="" class="anchortag" id="our-competetion"
+                >OUR COMPETETIONS</a
+              >
+            </div>
+          </div>
+          <div class="fonttwo">
+            <a href="" class="anchortag" id="signinup">SIGN IN/SIGN UP</a>
+          </div>
+        </div>
+        <div class="content-div">
+          <div class="contentleft-div">
+            <div class="mainheading-div">
+              Welcome to the Competetion
+            </div>
+            <div class="lorem-div"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ac,
+              nec viverra pretium. Adipiscing sit quisque mauris est sit tristique
+              nunc mauris. Urna, malesuada elementum, pellentesque luctus at dui
+              feugiat. Sollicitudin leo lacus sagittis purus nec phasellus dui.
+              Libero scelerisque venenatis duis ornare. Ut tellus dignissim quam
+              auctor hac morbi eleifend enim, non. Metus, semper facilisi aliquet
+              massa. Netus morbi elit quam pulvinar blandit facilisis faucibus.
+              Nunc pellentesque cursus pretium eget libero. </div>
+           
+            <div class="more-div">
+              <a href="" class="clicktosee"> Click to see more</a>
+            </div>
+          </div>
+          <div class="image-div">
+            <img src="Assets/treeImage (2).svg" alt="Tree" class="image-tree" />
+          </div>
+        </div>
+      </div>
+      <div class="bottom-container">
+        
+        <div class="inner-div">
+          
+            <div class="innerleft-div">
+              <div><h4>Fill the Application</h4></div>
+              <form action="">
+              <div class="details-div">
+                <input
+                  type="text"
+                  class="inputfield"
+                  placeholder="Full Name"
+                  required
+                />
+              </div>
+              <div class="details-div">
+                <input
+                  type="email"
+                  class="inputfield"
+                  placeholder="Enter Email Address"
+                />
+              </div>
+              <div class="details-div">
+                <input
+                  type="number"
+                  class="inputfield" id="number"
+                  placeholder="Phone Number."
+                  required
+                />
+              </div>
+              <div class="details-div">
+                <div class="streetadd-div">
+                  <input
+                    type="text"
+                    class="inputfield"
+                    placeholder="Street Address"
+                    required
+                  />
+                </div>
+                <input type="text" class="inputfield" id="streetaddline" required />
+              </div>
+              <div class="main-select">
+                <div>
+                  <select name="" id="cityid" selected class="select-div">
+                    <option>City</option>
+                    <option value="">Ernakulam</option>
+                    <option value="">Perumbavoor</option>
+                    <option value="">Kothamangalam</option>
+                  </select>
+                </div>
+                <div>
+                  <select name="" id="" selected class="select-div">
+                    <option>State</option>
+                    <option value="">Kerala</option>
+                    <option value="">Goa</option>
+                    <option value="">Karnadaka</option>
+                  </select>
+                </div>
+              </div>
+              <div class="main-select">
+                <div>
+                  <select name="" id="countryid" selected class="select-div">
+                    <option>Country</option>
+                    <option value="">India</option>
+                    <option value="">Germany</option>
+                    <option value="">Canada</option>
+                  </select>
+                </div>
+                <div>
+                  <select name="" id="" selected class="select-div">
+                    <option>Zip Code</option>
+                    <option value="">0000</option>
+                    <option value="">0001</option>
+                    <option value="">0002</option>
+                  </select>
+                </div>
+              </div>
+              <div class="gender-div">
+                <input type="radio" class="rdbutton" name="gender" id="gendermale" value="Male" checked>Male</input>
+                 <input type="radio" class="rdbutton" name="gender" id="genderfemale" value="Female">Female</input>
+              </div>
+            </div>
+            <div class="innerright-div">
+              <div class="details-div">
+                <div><label for="" class="descpayment">Description</label></div>
+                <textarea name="" id="" cols="30" rows="5" class="textareaclass" required></textarea>
+              </div>
+              <div class="main-select">
+                <select name="" id="" selected class="photocategory-div">
+                  <option>Photo Contest Category</option>
+                  <option value="">0000</option>
+                  <option value="">0001</option>
+                  <option value="">0002</option>
+                </select>
+              </div>
+              <div class="paymentoption-div">
+                <label for="" class="descpayment">Payment Option</label>
+                <div>
+                  <input type="number" class="inputfield" placeholder="Name on Card*" id="number" required/>
+                </div>
+                <div><input type="number" class="inputfield" placeholder="Credit Card*" id="number" required></div>
+              </div>
+              <div class="details-div">
+                <div class="tc"><a href="" class="termscondition">Terms and Conditions</a></div>
+                <input type="checkbox" name="I Agree" class="chkbox" checked >
+                <label for="" class="lblagree"> I Agree</label>
+              </div>
+              <div class="button-div">
+                <div><button class="btnsubmit" value="submit">Submit</button></div>
+                <div><button class="btncancel" value="cancel">Cancel</button></div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

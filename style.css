@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    background-color: #000000;
+    width: 100%;
+    margin: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    position: fixed;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #000000;
+    align-items: baseline;
+}
+.info-div {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+.anchortag {
+    color: #ffffff;
+    text-decoration: none;
+}
+.awards-div {
+    font-family: "Arsenal";
+    font-size: 2rem;
+}
+.fontone {
+    font-family: "Arsenal";
+    font-size: 1rem;
+}
+.fonttwo {
+    font-family: "Inter";
+    font-size: 0.7rem;
+}
+#signinup {
+    font-style: italic;
+    font-size: 1rem;
+}
+#our-competetion {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.content-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.mainheading-div {
+    color: #ffffff;
+    font-size: 3rem;
+    padding-left: 3rem;
+    font-weight: bold;
+}
+.lorem-div {
+    color: #ffffff;
+    padding: 2rem 2rem 2rem 3rem;
+    font-size: 1rem;
+    width: 75%;
+}
+.clicktosee {
+    color: #ffffff;
+    padding-left: 3rem;
+}
+.image-tree {
+    border-radius: 2rem;
+    height: 25rem;
+}
+.bottom-container {
+    padding: 5rem;
+    background-color: #343434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.inner-div {
+    background-image: url("/Assets/cameraImage \(1\).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.innerleft-div {
+    flex-grow: 1;
+    flex-basis: 50%;
+    border-right: 1px solid #343434;
+    padding-left: 4rem;
+}
+h4 {
+    color: #e5e5e5;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.innerright-div {
+    border-left: 0.7px solid #343434;
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding-top: 3rem;
+    padding-left: 1.3rem;
+    padding-bottom: 3rem;
+}
+.main-select {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.select-div {
+    border: none;
+    margin-top: 1.5rem;
+    font-family: "Inter";
+    background: inherit;
+    color: #757575;
+    border-bottom: 1px solid #757575;
+    outline: none;
+}
+.streetadd-div {
+    width: 95%;
+}
+#streetaddline {
+    width: 51%;
+    margin-top: 1.3rem;
+}
+#cityid,
+#countryid {
+    width: 7rem;
+}
+.gender-div {
+    margin-top: 2rem;
+    color: #757575;
+}
+.rdbutton {
+    accent-color: black;
+    color: #343434;
+    margin-bottom: 3rem;
+}
+.textareaclass {
+    border-radius: 0.6rem;
+    margin-top: 1rem;
+    outline: none;
+    width: 50%;
+    background-color: #343434;
+    resize: none;
+}
+.photocategory-div {
+    border: none;
+    margin-top: 1.5rem;
+    font-family: "Inter";
+    background: inherit;
+    color: #757575;
+    border-bottom: 1px solid #757575;
+    outline: none;
+    width: 60%;
+}
+.lblheading {
+    font-family: "Inter";
+    font-style: Bold;
+    font-size: 1rem;
+}
+.inputfield {
+    border: none;
+    border-bottom: 1px solid #757575;
+    outline: none;
+    font-family: "Inter", sans-serif;
+    background: none;
+    margin-top: 2rem;
+    width: 60%;
+}
+#number::-webkit-outer-spin-button,
+#number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.descpayment {
+    font-family: "Inter";
+    font-size: 1rem;
+    color: #d5d4d2;
+}
+.paymentoption-div {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.termscondition {
+    color: #0ebfe9;
+    text-decoration: none;
+}
+.tc {
+    margin-bottom: 1rem;
+}
+.chkbox {
+    outline: 1px solid #343434;
+    accent-color: #57bf37;
+    color: #ffffff;
+}
+.lblagree {
+    color: #ffffff;
+}
+.button-div {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.btnsubmit {
+    background-color: #57bf37;
+    color: #ffffff;
+    border-radius: 1rem;
+    height: 1.5rem;
+    width: 8rem;
+    border: hidden;
+}
+.btncancel {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 1rem;
+    height: 1.5rem;
+    width: 8rem;
+    border: 0.5px solid;
+}
